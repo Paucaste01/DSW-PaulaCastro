@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <title>Fase3</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body class="body">
+    <header>
+        <h1 class="titulo">Sintaxis y Selectores CSS, Interacción Humano Ordenador</h1>
+    </header>
+    <div class="content">
+		<ul>
+			<li class="opciones"><a href="index.html">Inicio</a></li>
+			<li class="opciones">Temas
+				<ul class="subopciones">
+					<li><a href="tema1.html">Tema 1</a></li>
+                    <li><a href="tema2.html">Tema 2</a></li>
+				</ul>
+			</li>
+			<li class="opciones">Recursos Digitales
+				<ul class="subopciones">
+					<li><a href="recurso1.html">Recurso 1</a></li>
+					<li><a href="recurso2.html">Recurso 2</a></li>
+				</ul>
+			</li>
+			<li class="opciones">Aprendizaje
+				<ul class="subopciones">
+					<li><a href="actividad1.html">Actividad 1</a></li>
+					<li><a href="actividad2.html">Actividad 2</a></li>
+				</ul>
+			</li>
+			<li class="opciones">Acerca de
+				<ul class="subopciones">
+					<li><a href="autor.html">Autor</a></li>
+				</ul>
+			</li>	
+		</ul>
+    </div>
+	<section>
+		<h1>Sintaxis y Selectores CSS</h1>
+		<div>
+			
+			<div class="tema1">
+				<h2>Las Reglas en CSS3</h2>
+				Nuestro código CSS3 no es más que una serie de reglas incluidas en un fichero. La mejor forma de entender una regla es como la imagen
+				<br>
+				<img src="img/sintaxiscss.png"/><br>
+				Como puedes observar, una regla se compone de un selector y una declaración que está encerrada entre {} de forma que con la declaración decimos qué tiene que hacerse y es el selector  el encargado de indicar aqué elemento de nuestro HTML se le debe aplicar la declaración.
+				<br><br>
+				La declaración es un conjunto de líneas separadas por ; (punto y coma) y cada línea (aunque pueden estar todas seguidas) se compone de una propiedad y un valor de forma que especificamos qué modificación visual queremos realizar (propiedad) y en qué medida (valor).
+				<br>
+
+				<h2>Los Selectores en CSS3</h2>
+				Hasta ahora hemos utilizado exclusivamente los llamados selectores de tipo o de etiqueta y los selectores descendentes, sin embargo tenemos varios tipos de selectores:
+				<ul>
+					<li>Selector universal.</li>
+					<br>Es muy poco utilizado, ya que aplicará el estilo a todas las etiquetas del documento. Sin embargo, es muy interesante a la hora de establecer una serie de valores básicos (como puede ser el color de la fuente, la familia y tamaño)  de forma que se garantice un estilo uniforme y sea en reglas más concretas dónde se apliquen los estilos específicos. En el CSS de nuestro proyecto, podríamos utilizar el selector universal en la primera regla declarada, por lo que en vez de:
+					<br><img src="img/s1.png"/><br>	
+					Lo mejor seria
+					<br><img src="img/s2.png"/><br>	
+					<li>Selector de tipo o etiqueta.</li>
+					<br>
+					Como su propio nombre indica, el selector de etiqueta se utiliza para aplicar estilos en las etiquetas HTML, es lo que hemos estado realizando constantemente
+					<br><br>
+					<li>Selector descendente.</li>
+					<br> El otro de los selectores que utilizamos en nuestro proyecto es el selector descendente. Nos permite establecer un estilo para una etiqueta que se encuentre dentro de otra, pudiendo tener un estilo para las etiquetas h2 que están dentro de un article y otro estilo para los h2 que están dentro de un aside
+					<br><img src="img/s3.png"/><br>	
+					<li>Selector de clase.</li>
+					<br> El selector de clase es, sin duda, el rey de los selectores. A las etiquetas HTML podemos ponerle un atributoclass y asignarle un valor:
+					<br><img src="img/s4.png"/><br>	
+					<li>Selector de ID.</li>
+					<br> Al igual que una etiqueta HTML tiene un atributo class, existe otro llamado id. Al atributo id sólo se le puede asignar un valor (no como en el class que podemos utilizar varios) y, además, dentro de un documento HTML no pueden existir dos (o más) etiquetas con el mismo id. El id es, como su propio indica, un identificador… y los identificadores tienen que ser únicos!!
+					<br><img src="img/s6.png"/><br>	
+					<li>Selector de hijos.</li>
+					<br> El selector de hijos es muy parecido al descendente, pero con una importantísima diferencia. Un selector descendente aplica un estilo a una etiqueta (clase, etc) que está contenida en otra, esto significa que este estilo:
+					<br><img src="img/s7.png"/><br>
+				</ul>
+			</div>
+			
+		</div>
+	</section>
+	<br>
+	<div>
+		<b>Referencias:</b><br>
+	Sintaxis CSS y Selectores. (s/f). Edu.sv. Recuperado el 19 de abril de 2022, de https://virtual.itca.edu.sv/Mediadores/dpw/sintaxis_css_y_selectores.html
+	</div>
+	<br><br><br>
+	<footer>
+        Correo: castropaula421@gmail.com
+        <br>
+        Usuario Skype live:cb46fab9112e7354
+        <br>
+        Fecha: 17 Marzo 2022
+    </footer>	
+</body>
+</html>
