@@ -1,0 +1,59 @@
+.body
+{
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
+.proposito
+{
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
+.titulo{
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 50px;
+    padding: 10px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+    color: #2c2c2c;
+    background-color: #d5d5d5;
+    letter-spacing: .05em;
+    text-shadow: 
+      4px 4px 0px #d5d5d5, 
+      5px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.content{
+	width: 100%;
+    background-color:#BBF1F9; /* Color de fondo */
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    color: #2c2c2c;
+    
+}
+
+.content ul
+{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.content li
+{
+    flex-grow: 1;
+    text-align: center;
+    border-right: 1px solid #2c2c2c;
+}
+
+.content li a
+{
+    display: block;
+    padding: 15px 20px;
+    text-decoration:none ;
+}
+
+.content li:hover
+{
+    background:rgba(0,0,0,0.3);
+}
